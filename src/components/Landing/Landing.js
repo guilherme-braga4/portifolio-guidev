@@ -14,6 +14,7 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaInstagram
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,13 +102,13 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Twitter'
@@ -127,7 +128,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {/* {socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
                                 target='_blank'
@@ -164,6 +165,18 @@ function Landing() {
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
+                            {headerData.curriculoPdf && (
+                                <a
+                                    href={headerData.curriculoPdf}
+                                    download='curriculo'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <Button className={classes.resumeBtn}>
+                                        Baixar CV
+                                    </Button>
+                                </a>
+                            )}
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
@@ -183,7 +196,7 @@ function Landing() {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contato
                                 </Button>
                             </NavLink>
                         </div>

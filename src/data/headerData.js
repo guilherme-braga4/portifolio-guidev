@@ -1,9 +1,13 @@
+import curriculo from '../assets/pdf/curriculo.pdf'
 import resume from '../assets/pdf/resume.pdf'
+import foto from '../assets/png/perfil2.png'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Guilherme Braga',
+    title: "Full Stack Software Developer",
+    desciption:"Olá! Me chamo Guilherme, mas sou conhecido como Gui Dev. Atualmente sou um Desenvolvedor Full Stack, e nos últimos meses, tive a oportunidade de atuar em uma empresa de Consultoria de Software para projetos de Software sob demanda.",
+    image: foto,
+    curriculoPdf: curriculo,
     resumePdf: resume
 }
+

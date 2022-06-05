@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({ id, name, desc, desc2, tags, code, demo, image, theme }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
@@ -16,7 +16,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             height: 40,
             borderRadius: 50,
             border: `2px solid ${theme.tertiary}`,
-            color: theme.tertiary,
+            color: 'white',
             transition: 'all 0.2s',
             '&:hover': {
                 backgroundColor: theme.secondary,
@@ -44,7 +44,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <div className='projectContent'>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
-                        style={{ color: theme.tertiary }}
+                        style={{ color: 'white'}}
                     >
                         {name}
                     </h2>
@@ -97,8 +97,18 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         color: theme.tertiary,
                     }}
                 >
-                    {desc}
+                    {desc} <br></br> {desc2}
                 </p>
+                {/* <br></br>
+                <p
+                    className='project--desc'
+                    style={{
+                        background: theme.secondary,
+                        color: theme.tertiary,
+                    }}
+                >
+                    
+                </p> */}
                 <div
                     className='project--lang'
                     style={{

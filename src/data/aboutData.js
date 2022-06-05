@@ -1,6 +1,7 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    title: "Conheça o Gui Dev",
+    description1: "Olá! Me chamo Guilherme Braga, e sou um Desenvolvedor de Software!",
+    description2: "Sou um tipo diferente de programador: sou mais extrovertido e comunicativo. Assim, durante a minha jornada como Programador, resolvi criar um canal no Youtube (chamado Gui Dev) para compartilhar conhecimentos, experiências e fortalecer a comunidade de Devs! Inclusive, você pode me conhecer ainda melhor através dos meus vídeos!",
+    description3: "A programação me conquistou quando descobri o impacto de um programador mundo atual. Dessa forma, quando uma empresa reune diversos programadores, de diversas senioridades, todos unidos e dispostos a trabalhar duro, o resultado não pode ser outro se não um grande produto, serviço, etc. Portanto, com trabalho em equipe, compromisso, união e muito estudo, um programador pode transformar sonhos em realidade!",
     image: 2
 }
